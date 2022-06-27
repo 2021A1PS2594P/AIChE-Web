@@ -1,0 +1,343 @@
+body {
+    font-family: 'Charis SIL', serif;
+    background-color: #161927;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 1em;
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    text-align: right;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+nav a:link {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.Contact {
+    position: relative;
+}
+
+.Type_1 {
+    position: relative;
+    left: 300px;
+}
+
+.Type_1 input {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid honeydew;
+    padding-left: 0;
+}
+
+.Type_1 input:hover {
+    border-bottom: 1px solid darkolivegreen;
+    transition: 0.6s;
+}
+
+.Type_1 label {
+    position: absolute;
+    top: 20px;
+    left: -1px;
+    color: white;
+    font-size: 27px;
+    font-family: 'Playfair Display', serif;
+    transition: top .5s;
+}
+
+.Type_1 input:focus~label,
+.Type_1 input:valid~label {
+    top: -15px;
+    font-size: 23px;
+    transition: 0.6s;
+}
+
+.Type_2 {
+    position: relative;
+    left: 300px;
+    top: -80px;
+}
+
+.Type_2 input {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid honeydew;
+    padding-left: 0;
+}
+
+.Type_2 input:hover {
+    border-bottom: 1px solid darkolivegreen;
+    transition: 0.6s;
+}
+
+.Type_2 label {
+    position: absolute;
+    top: 20px;
+    left: -1px;
+    color: white;
+    font-size: 27px;
+    font-family: 'Playfair Display', serif;
+    transition: top .5s;
+}
+
+.Type_2 input:focus~label,
+.Type_2 input:valid~label {
+    top: -15px;
+    font-size: 23px;
+    transition: 0.6s;
+}
+
+.Type_3 {
+    position: relative;
+    left: 300px;
+    top: -50px;
+}
+
+.Type_3 input {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid honeydew;
+    padding-left: 0;
+}
+
+.Type_3 input:hover {
+    border-bottom: 1px solid darkolivegreen;
+    transition: 0.6s;
+}
+
+.Type_3 label {
+    position: absolute;
+    top: 20px;
+    left: 2px;
+    color: white;
+    font-size: 27px;
+    font-family: 'Playfair Display', serif;
+    transition: top .5s;
+}
+
+.Type_3 input:focus~label,
+.Type_3 input:valid~label {
+    top: -15px;
+    font-size: 23px;
+    transition: 0.6s;
+}
+
+.Type_4 {
+    position: relative;
+    left: 500px;
+    top: -55px;
+}
+
+.Type_4 input {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid honeydew;
+    padding-left: 0;
+}
+
+.Type_4 input:hover {
+    border-bottom: 1px solid darkolivegreen;
+    transition: 0.6s;
+}
+
+.Type_4 label {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    color: white;
+    font-size: 27px;
+    transition: top .5s;
+}
+
+.Type_4 input:focus~label,
+.Type_4 input:valid~label {
+    top: -15px;
+    font-size: 23px;
+    transition: 0.6s;
+}
+
+.Type_5 {
+    position: relative;
+    left: 1000px;
+    top: -110px;
+}
+
+.Type_5 input {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid honeydew;
+    padding-left: 0;
+}
+
+.Type_5 input:hover {
+    border-bottom: 1px solid darkolivegreen;
+    transition: 0.6s;
+}
+
+.Type_5 label {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    color: white;
+    font-size: 27px;
+    transition: top .5s;
+}
+
+.Type_5 input:focus~label {
+    top: -15px;
+    font-size: 23px;
+    transition: 0.6s;
+}
+
+.Submit {
+    position: relative;
+    left: 300px;
+    top: -25px;
+}
+
+.Submit input {
+    background-color: cornflowerblue;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 1em;
+}
+
+.Submit input:hover {
+    background: black;
+    outline: solid 1px cornflowerblue;
+    color: white;
+    padding: 1em;
+    transition: 0.9s;
+}
+
+.Phone_No {
+    position: relative;
+    top: 7px;
+    background-color: darkcyan;
+}
+
+.LinkedIn {
+    position: absolute;
+    top: 385px;
+}
+
+.Instagram {
+    position: relative;
+    top: 46px;
+    left: 825px;
+}
+
+.Gmail {
+    position: relative;
+    left: 1620px;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
